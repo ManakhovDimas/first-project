@@ -1,6 +1,35 @@
+*
+{
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: blueviolet;
+    
+}
+
+.container {
+
+    min-width: 650px ;
+    display:flex;
+    background-color: antiquewhite;
+     justify-content: space-around;
+}
+
 p
 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 10px auto;
+    display: block;
+    font-size: 20px;
+    line-height: 25px;
     background-color: aqua;
+    width:200px;
+    min-height:300px;
+    flex-direction: row;
+   
+    
     border:1px solid;
-    margin-top: 100px;
+    
 }
